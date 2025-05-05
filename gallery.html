@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      body{
+        font-family: roboto, arial;
+      }
+      
+      .gallery .galleryContainer{
+        column-count: 4;
+        column-gap: 20px;
+      }
+      .gallery .galleryContainer img{
+        width: 100%;
+        display: block;
+      }
+      .gallery .galleryContainer .item{
+        position: relative;
+        margin-bottom: 20px;
+      }
+      .gallery .galleryContainer .title{
+        position: absolute;
+        background-color: rgb(194, 191, 191);
+        padding: 5px;
+      }
+        @media(max-width:750px){
+          .gallery .galleryContainer{
+        column-count: 2;
+        column-gap: 20px;
+      }
+        }
+    @media(min-width:751px) and (max-width:999px){
+      .gallery .galleryContainer{
+        column-count: 3;
+      }
+    }
+        @media(min-width:1000px){
+          .gallery .galleryContainer{
+        column-count: 5;
+        
+      }
+        }
+      .sectionTitle{
+        width: 300px;
+        border-bottom: 3px solid red;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 200;
+        margin: 0 auto 50px;
+        position: relative;
+        padding: 10px 0;
+        text-transform: uppercase;
+      }
+
+      .sectionTitle::after{
+        display: inline-block;
+        content: "";
+        height: 15px;
+        width: 15px;
+        background-color: red;
+        position: absolute;
+        left: calc(50% - 10px);
+        top: calc(75% - 7px);
+        transform: rotate(45deg) translate(50%, 50%);
+        border: 3px solid white;
+      }
+      .title{
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="rema.html">Back</a>
+    <section class="gallery" id="gallery-section">
+      <div class="container">
+        <h2 class="sectionTitle"> Gallery</h2>
+        <div class="galleryContainer">
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0188.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Gilead orphanage home kaduna state
+            </span>
+            <img src="gallery/Gilead1.jpg" alt="">
+          </div>
+          <div class="item">
+            <span class="title">
+              Gilead orphanage home kaduna state
+            </span>
+            <img src="gallery/Gilead2.jpg" alt="">
+          </div>
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0186.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0037.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0041.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0046.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0058.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0060.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0048.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0049.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0036.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0037.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0038.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0042.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0043.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0044.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0045.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0047.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0050.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0051.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0052.jpg" alt="">
+          </div>
+>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0054.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0055.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0056.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0058.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0059.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0061.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0062.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0063.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0064.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0065.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0160.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0165.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0168.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0169.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0170.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0171.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0172.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0173.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0175.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0176.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0177.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0178.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0179.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0180.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0181.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0182.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0183.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0184.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0185.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0186.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0187.jpg" alt="">
+          </div>
+          <!--.item-->
+          <div class="item">
+            <span class="title">
+              Image Title
+            </span>
+            <img src="gallery/IMG-20250213-WA0189.jpg" alt="">
+          </div>
+          <!--.item-->
+        </div>
+      </div>
+    </section>
+    <!--Gallery section ends here-->
+  </body>
+</html>
