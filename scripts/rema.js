@@ -73,7 +73,7 @@ const buttons = document.querySelectorAll('.js-whatsapplink');
 buttons.forEach(button => {
     button.addEventListener('click', () => {
         // Redirect to the WhatsApp link
-        window.location.href = 'https://wa.me/09099272660';
+        window.location.href = 'https://wa.me/2349099272660';
     });
 });
 
